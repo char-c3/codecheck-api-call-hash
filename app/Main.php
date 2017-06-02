@@ -6,7 +6,7 @@ function run ($argc, $argv)
   foreach ($argv as $index=>$value) {
     $query = "?q=". urlencode($value);
     $url_handle = fopen($url . $query, "r");
-    $json = fread($url_handle, 82 + strlen($value));
+    $json = file_get_contents($url_handle);
     $data = json_decode($json);
     echo $data->hash, PHP_EOL;
   }
