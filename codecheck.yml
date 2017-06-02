@@ -1,5 +1,5 @@
 build:
-- c++ -std=c++11 -o theapp.o src/*.cpp
+- composer install
 env:
-  APP_COMMAND: ./theapp.o
+  APP_COMMAND: php index.php
 test: mocha
