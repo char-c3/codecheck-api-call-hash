@@ -1,17 +1,32 @@
-# Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
-/vendor/
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
+# Precompiled Headers
+*.gch
+*.pch
 
-# Build data
-/build/
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Composer PHAR
-/composer.phar
+# Fortran module files
+*.mod
+*.smod
 
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+## node
 node_modules/
